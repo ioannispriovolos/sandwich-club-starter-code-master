@@ -11,7 +11,7 @@ import java.util.List;
 
 public class JsonUtils {
 
-    public static Sandwich parseSandwichJson(String json) {
+    public static Sandwich parseSandwichJson(String json) { // Original code modified from https://stackoverflow.com/questions/28736419/parsing-json-array-and-object-in-android
 
         try {
             JSONObject sandwichJson = new JSONObject(json);
