@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.sandwichclub.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/sandwich_picture_content_description"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad"
+            android:text="@string/detail_description_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad"
+            android:paddingLeft="@dimen/pad"
+            android:paddingRight="@dimen/pad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad"
+            android:text="@string/detail_place_of_origin_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad"
+            android:paddingLeft="@dimen/pad"
+            android:paddingRight="@dimen/pad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad"
+            android:text="@string/detail_also_known_as_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/also_known"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad"
+            android:paddingLeft="@dimen/pad"
+            android:paddingRight="@dimen/pad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad"
+            android:text="@string/detail_ingredients_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/pad"
+            android:paddingLeft="@dimen/pad"
+            android:paddingRight="@dimen/pad" />
+    </LinearLayout>
+</ScrollView>
